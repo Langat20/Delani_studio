@@ -1,0 +1,13 @@
+.header {
+    background-image: url("../images/himg.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 350px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.mouse {
+    margin-top: 230px;
+}
