@@ -16,3 +16,14 @@
     text-align: center;
     line-height: 50px;
 }
+
+.services {
+    background-image: url("../images/s_image.jpg");
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    line-height: 50px;
+}
