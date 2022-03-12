@@ -113,3 +113,23 @@
     margin: 0px;
     font-family: 'Roboto';
 }
+
+@media screen and (min-width:480px) {
+    .what-we-do {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .portfolio {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .top-row img {
+        margin-top: 10px;
+    }
+    #email {
+        margin-left: 0;
+    }
+    .bottom-row img {
+        margin-top: 10px;
+    }
+}
