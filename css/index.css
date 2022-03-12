@@ -76,3 +76,21 @@
     padding-bottom: 200px;
     margin-top: 5%;
 }
+
+::placeholder {
+    color: white;
+    min-height: 10em;
+    vertical-align: top;
+    display: table-cell;
+    justify-content: top;
+    background-color: transparent;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
