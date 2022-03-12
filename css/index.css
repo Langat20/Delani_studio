@@ -94,3 +94,17 @@
     color: white;
     font-size: 18px;
 }
+
+.footer {
+    text-align: center;
+    padding-top: 30px;
+    line-height: 10px;
+}
+
+.footer-logo {
+    padding-top: 30px;
+}
+
+.social-icons img {
+    padding-left: 15px;
+}
