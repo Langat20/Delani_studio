@@ -109,6 +109,70 @@
     padding-left: 15px;
 }
 
+.show1,
+.show2,
+.show3 {
+    display: none;
+}
+
+.delan-form {
+    background-image: url('../images/c_image.jpg');
+    height: 80vh;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.fields {
+    flex-wrap: wrap;
+}
+
+form {
+    flex-wrap: wrap;
+}
+
+#name,
+#email {
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.text-area::placeholder {
+    color: white;
+}
+
+#name {
+    margin-left: 330px;
+}
+
+#email {
+    margin-left: 20px;
+}
+
+.text-area {
+    margin-left: 330px;
+    color: white;
+}
+
+#message {
+    width: 620px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+button {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    border: 2px solid white;
+}
+
 * {
     margin: 0px;
     font-family: 'Roboto';
