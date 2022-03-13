@@ -16,7 +16,7 @@ $(document).ready(function() {
     });
 
     $('.displayin').hide();
-    $('.delim').hover(function() {
+    $('.port').hover(function() {
         $(this).find('.displayin').toggle(500);
     });
 
