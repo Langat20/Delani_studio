@@ -1,199 +1,217 @@
-.header {
-    background-image: url("../images/himg.jpg");
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 350px;
-    padding-bottom: 50px;
-    color: #fff;
-}
-
-.mouse {
-    margin-top: 230px;
-}
-
-.about_us {
-    text-align: center;
-    line-height: 50px;
-}
-
-.services {
-    background-image: url("../images/s_image.jpg");
-    color: #fff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding-top: 150px;
-    padding-bottom: 50px;
-    line-height: 50px;
-}
-
-.what-we-do {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 250px;
-    padding-right: 250px;
-}
-
-.what-icons {
-    display: flex;
-    justify-content: space-between;
-}
-
-.what-we-do h1 {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.design,
-.dev,
-.product {
-    text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    width: 30%;
-}
-
-.design-text {
-    display: none;
-}
-
-.dev-text {
-    display: none;
-}
-
-.product-text {
-    display: none;
-}
-
-.contact_us {
-    text-align: center;
-    background-image: url("../images/c_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 50px;
-    color: #fff;
-    padding-bottom: 200px;
-    margin-top: 5%;
-}
-
-::placeholder {
-    color: white;
-    min-height: 10em;
-    vertical-align: top;
-    display: table-cell;
-    justify-content: top;
-    background-color: transparent;
-}
-
-.btn {
-    width: 200px;
-    height: 50px;
-    border: 1px solid white;
-    margin-top: 20px;
-    color: white;
-    font-size: 18px;
-}
-
-.footer {
-    text-align: center;
-    padding-top: 30px;
-    line-height: 10px;
-}
-
-.footer-logo {
-    padding-top: 30px;
-}
-
-.social-icons img {
-    padding-left: 15px;
-}
-
-.show1,
-.show2,
-.show3 {
-    display: none;
-}
-
-.delan-form {
-    background-image: url('../images/c_image.jpg');
-    height: 80vh;
-    background-size: cover;
-    flex-wrap: wrap;
-}
-
-.fields {
-    flex-wrap: wrap;
-}
-
-form {
-    flex-wrap: wrap;
-}
-
-#name,
-#email {
-    width: 300px;
-    background-color: transparent;
-    border: 2px solid white;
-}
-
-::placeholder {
-    color: white;
-}
-
-.text-area::placeholder {
-    color: white;
-}
-
-#name {
-    margin-left: 330px;
-}
-
-#email {
-    margin-left: 20px;
-}
-
-.text-area {
-    margin-left: 330px;
-    color: white;
-}
-
-#message {
-    width: 620px;
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-}
-
-button {
-    text-align: center;
-    background-color: white;
-    padding: 10px;
-    width: 100px;
-    border: 2px solid white;
-}
-
-* {
-    margin: 0px;
-    font-family: 'Roboto';
-}
-
-@media screen and (min-width:480px) {
+    .header {
+        background-image: url("../images/himg.jpg");
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 350px;
+        padding-bottom: 50px;
+        color: #fff;
+    }
+    
+    .mouse {
+        margin-top: 230px;
+    }
+    
+    .about_us {
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    .services {
+        background-image: url("../images/s_image.jpg");
+        color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 50px;
+        line-height: 50px;
+    }
+    
     .what-we-do {
-        padding-left: 0;
-        padding-right: 0;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 250px;
+        padding-right: 250px;
     }
-    .portfolio {
-        padding-left: 10px;
-        padding-right: 10px;
+    
+    .what-icons {
+        display: flex;
+        justify-content: space-between;
     }
-    .top-row img {
-        margin-top: 10px;
+    
+    .what-we-do h1 {
+        text-align: center;
+        margin-bottom: 50px;
     }
+    
+    .design,
+    .dev,
+    .product {
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 30%;
+    }
+    
+    .design-text {
+        display: none;
+    }
+    
+    .dev-text {
+        display: none;
+    }
+    
+    .product-text {
+        display: none;
+    }
+    
+    .contact_us {
+        text-align: center;
+        background-image: url("../images/c_image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 50px;
+        color: #fff;
+        padding-bottom: 200px;
+        margin-top: 5%;
+    }
+    
+    .displayin {
+        /* float: left; */
+        color: white;
+        opacity: 0.2;
+        border: 3px solid white;
+        background-color: black;
+        -ms-transform: translate(-20%, -20%);
+        transform: translate(-20%, -20%);
+        /* text-align: center; */
+        position: absolute;
+        height: 150px;
+        width: 60%;
+        font-weight: 700;
+        /* display: none; */
+        top: 30%;
+        left: 30%;
+        right: 20%;
+    }
+    
+    .displayin {
+        opacity: 0.9;
+    }
+    
+     ::placeholder {
+        color: white;
+        min-height: 10em;
+        vertical-align: top;
+        display: table-cell;
+        justify-content: top;
+        background-color: transparent;
+    }
+    
+    .btn {
+        width: 200px;
+        height: 50px;
+        border: 1px solid white;
+        margin-top: 20px;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .footer {
+        text-align: center;
+        padding-top: 30px;
+        line-height: 10px;
+    }
+    
+    .footer-logo {
+        padding-top: 30px;
+    }
+    
+    .social-icons img {
+        padding-left: 15px;
+    }
+    
+    .show1,
+    .show2,
+    .show3 {
+        display: none;
+    }
+    
+    .delan-form {
+        background-image: url('../images/c_image.jpg');
+        height: 80vh;
+        background-size: cover;
+        flex-wrap: wrap;
+    }
+    
+    .fields {
+        flex-wrap: wrap;
+    }
+    
+    form {
+        flex-wrap: wrap;
+    }
+    
+    #name,
     #email {
-        margin-left: 0;
+        width: 300px;
+        background-color: transparent;
+        border: 2px solid white;
     }
+    
+     ::placeholder {
+        color: white;
+    }
+    
+    .text-area::placeholder {
+        color: white;
+    }
+    
+    #name {
+        margin-left: 330px;
+    }
+    
+    #email {
+        margin-left: 20px;
+    }
+    
+    .text-area {
+        margin-left: 330px;
+        color: white;
+    }
+    
+    #message {
+        width: 620px;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    
+    button {
+        margin: 0px;
+        font-family: 'Roboto';
+        @media screen and (min-width: 480px) {
+            .what-we-do {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .portfolio {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .top-row img {
+                margin-top: 10px;
+            }
+            #email {
+                margin-left: 0;
+            }
+            .bottom-row img {
+                margin-top: 10px;
+            }
+        }
+    }
+    
     .bottom-row img {
         margin-top: 10px;
     }
-}
