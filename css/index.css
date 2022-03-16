@@ -66,28 +66,37 @@
         display: none;
     }
     
-    .delim img {
-        width: 250px;
-        height: 200px;
+    .portfolio {
+        padding-top: 1rem;
+        position: relative;
+        margin: 5%;
     }
     
-    .displayin {
-        color: white;
+    .row {
+        padding-bottom: 2rem;
+    }
+    
+    .desc {
+        color: white !important;
+        font-size: 26px;
+        font-weight: bold;
+        padding-top: 1rem;
         border: 3px solid white;
-        background-color: black;
-        -ms-transform: translate(-20%, -20%);
-        transform: translate(-20%, -20%);
         position: absolute;
-        height: 150px;
-        width: 60%;
-        font-weight: 700;
-        top: 30%;
-        left: 30%;
-        right: 20%;
+        top: 2.5rem;
+        bottom: 0;
+        padding-left: 0.5rem;
+        width: 15%;
+        margin-left: 1.4rem;
+        height: 22vh;
+        opacity: 0;
+        transition: all ease-in-out 250ms
     }
     
-    .displayin {
-        opacity: 0.9;
+    .desc:hover {
+        opacity: 2;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.3);
     }
     
     .contact_us {
@@ -215,4 +224,10 @@
     
     .bottom-row img {
         margin-top: 10px;
+    }
+    
+    .col img {
+        height: 290px;
+        width: 290px;
+        /* margin: 3%; */
     }
